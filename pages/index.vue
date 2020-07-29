@@ -1,6 +1,34 @@
 <template>
   <div class="container">
-    <ProjectCard />
+    <nav class="navbar is-primary is-fixed-top">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="/">
+          <img src="../assets/testImage.jpg" width="30px">
+          <p>SAM MCCALL</p>
+        </a>
+        <a class="navbar-burger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+      </div>
+      <div class="navbar-menu">
+        <div class="navbar-end">
+          <a class="navbar-item">
+            About Me
+          </a>
+          <a class="navbar-item">
+            Projects
+          </a>
+          <a class="navbar-item">
+            Contact
+          </a>
+        </div>
+      </div>
+    </nav>
+    <body>
+      <ProjectCard />
+    </body>
   </div>
 </template>
 
