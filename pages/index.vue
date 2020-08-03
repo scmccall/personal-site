@@ -15,13 +15,13 @@
         </div>
         <div class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item" href="/#about">
+            <a href="/#about" class="navbar-item">
               About Me
             </a>
-            <a class="navbar-item">
+            <a href="/#projects" class="navbar-item">
               Projects
             </a>
-            <a class="navbar-item">
+            <a href="/" class="navbar-item">
               Contact
             </a>
           </div>
@@ -55,10 +55,10 @@
         </div>
       </section>
       <!-- Portfilio Projects -->
-      <section class="section">
-      <h1 class="title is-2 has-text-centered">
-        Projects
-      </h1>
+      <section class="section" id="projects">
+        <h1 class="title is-2 has-text-centered">
+          Projects
+        </h1>
         <div class="columns">
           <div class="column">
             <ProjectCard />
