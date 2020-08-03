@@ -71,6 +71,31 @@
           </div>
         </div>
       </section>
+      <!-- Contact -->
+      <section class="section" id="contact">
+        <h1 class="title is-2 has-text-centered">
+          Get in touch
+        </h1>
+        <div class="box">
+          <ul>
+            <li><a href="/">
+              Email
+            </a></li>
+            <li><a href="/">
+              LinkedIn
+            </a></li>
+            <li><a href="/">
+              GitHub
+            </a></li>
+          </ul>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="content">
+          <strong>Sam McCall</strong>
+        </div>
+      </footer>
     </div>
 </template>
 
