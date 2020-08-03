@@ -1,35 +1,44 @@
 <template>
-  <div class="container">
-    <nav class="navbar is-primary is-fixed-top">
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img src="../assets/testImage.jpg" width="30px">
-          <p>SAM MCCALL</p>
-        </a>
-        <a class="navbar-burger">
-          <span></span>
-          <span></span>
-          <span></span>
-        </a>
-      </div>
-      <div class="navbar-menu">
-        <div class="navbar-end">
-          <a class="navbar-item">
-            About Me
+    <body>
+      <nav class="navbar is-primary is-fixed-top">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="/">
+            <img src="../assets/testImage.jpg" width="30px">
+            <p>SAM MCCALL</p>
           </a>
-          <a class="navbar-item">
-            Projects
-          </a>
-          <a class="navbar-item">
-            Contact
+          <a class="navbar-burger">
+            <span></span>
+            <span></span>
+            <span></span>
           </a>
         </div>
-      </div>
-    </nav>
-    <body>
-      <ProjectCard />
+        <div class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item">
+              About Me
+            </a>
+            <a class="navbar-item">
+              Projects
+            </a>
+            <a class="navbar-item">
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>
+      <section class="hero is-primary is-medium">
+        <div class="hero-body">
+          <div class="container is-centered">
+            <h1 class="title is-1">
+              SAM MCCALL
+            </h1>
+            <h2 class="subtitle is-3">
+              { subtitle }
+            </h2>
+          </div>
+        </div>
+      </section>
     </body>
-  </div>
 </template>
 
 <script>
