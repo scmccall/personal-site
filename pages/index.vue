@@ -15,7 +15,7 @@
         </div>
         <div class="navbar-menu">
           <div class="navbar-end">
-            <a class="navbar-item">
+            <a class="navbar-item" href="/#about">
               About Me
             </a>
             <a class="navbar-item">
@@ -29,8 +29,8 @@
       </nav>
       <!-- Hero Image -->
       <section class="hero is-primary is-fullheight-with-navbar">
-        <div class="hero-body">
-          <div class="is-centered">
+        <div class="hero-body ">
+          <div class="has-text-centered">
             <h1 class="title is-1">
               SAM MCCALL
             </h1>
@@ -41,7 +41,7 @@
         </div>
       </section>
       <!-- About Me -->
-      <section class="section">
+      <section class="section" id="about">
         <div class="has-text-centered">
           <h1 class="title is-3">
             About Me
