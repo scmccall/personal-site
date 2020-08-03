@@ -1,21 +1,25 @@
 <template>
-  <div class="container">
-    <p>hello</p>
-    <!-- Big container -->
-    <div class="">
-      <div>
-        <h4 class="subtitle is-4">Subtitle</h4>
+  <div class="card">
+    <div class="card-image">
+      <figure class="image is-128-128">
+        <img src="../assets/squareimage.png">
+      </figure>
+    </div>
+    <div class="card-content">
+      <div class="content">
+        <p>Content here content here content here content here 
+          content here content here content here content here content here 
+          content here content here content here content here content here 
+        </p>
       </div>
-      <!-- Left Side Content -->
-      <div class="level-left">
-        <h2 class="title is-1">Title</h2>
-      </div>
-
-      <!-- Right Side Content -->
-      <div class="level-right">
-        <img src="../assets/testImage.jpg" width="300px">
-      </div>
-
+    </div>
+    <div class="card-footer">
+      <a href="/" class="card-footer-item">
+        Live Example
+      </a>
+      <a href="/" class="card-footer-item">
+        See GitHub
+      </a>
     </div>
   </div>
 </template>

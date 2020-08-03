@@ -1,5 +1,5 @@
 <template>
-    <body>
+    <div>
       <!-- Navigation Bar -->
       <nav class="navbar is-primary is-fixed-top">
         <div class="navbar-brand">
@@ -54,7 +54,24 @@
           </h2>
         </div>
       </section>
-    </body>
+      <!-- Portfilio Projects -->
+      <section class="section">
+      <h1 class="title is-2 has-text-centered">
+        Projects
+      </h1>
+        <div class="columns">
+          <div class="column">
+            <ProjectCard />
+          </div>
+          <div class="column">
+            <ProjectCard />
+          </div>
+            <div class="column">
+            <ProjectCard />
+          </div>
+        </div>
+      </section>
+    </div>
 </template>
 
 <script>
