@@ -15,10 +15,10 @@
     </div>
     <div class="card-footer">
       <a href="/" class="card-footer-item">
-        Live Example
+        Live Demo
       </a>
       <a href="/" class="card-footer-item">
-        See GitHub
+        See Source Code
       </a>
     </div>
   </div>
