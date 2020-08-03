@@ -1,5 +1,6 @@
 <template>
     <body>
+      <!-- Navigation Bar -->
       <nav class="navbar is-primary is-fixed-top">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
@@ -26,9 +27,10 @@
           </div>
         </div>
       </nav>
-      <section class="hero is-primary is-medium">
+      <!-- Hero Image -->
+      <section class="hero is-primary is-fullheight-with-navbar">
         <div class="hero-body">
-          <div class="container is-centered">
+          <div class="is-centered">
             <h1 class="title is-1">
               SAM MCCALL
             </h1>
@@ -36,6 +38,20 @@
               { subtitle }
             </h2>
           </div>
+        </div>
+      </section>
+      <!-- About Me -->
+      <section class="section">
+        <div class="has-text-centered">
+          <h1 class="title is-3">
+            About Me
+          </h1>
+          <h2 class="subtitle is-5">
+            Sample text sample text sample text sample text sample text 
+            sample text sample text sample text sample text sample text 
+            sample text sample text sample text sample text sample text 
+            sample text sample text sample text sample text sample text 
+          </h2>
         </div>
       </section>
     </body>
