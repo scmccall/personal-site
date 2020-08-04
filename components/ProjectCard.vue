@@ -11,11 +11,6 @@
         <h1 class="title is-3">
           {{ projectTitle }}
         </h1>
-        <ul>
-          <li>{{ id }}</li>
-          <li>{{ projectTitle }}</li>
-          <li>{{ imageSrc }}</li>
-        </ul>
         <p> {{ projectDescription }} 
         </p>
       </div>
