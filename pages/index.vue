@@ -53,6 +53,65 @@
             sample text sample text sample text sample text sample text 
           </h2>
         </div>
+        <div class="columns">
+          <div class="column">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Front-End Skills
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod ipsum dolorum ab sed, vel officia doloremque culpa velit quo, dolorem praesentium soluta ex corrupti architecto quas molestiae quisquam maiores quidem.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <figure class="card-image is-square">
+                <img src="../assets/testImage.jpg">
+              </figure>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <figure class="card-image is-square">
+                <img src="../assets/testImage.jpg">
+              </figure>
+            </div>
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Other (think of better title)
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam doloremque quae mollitia in. Incidunt magni recusandae perferendis. Earum labore ipsum vel pariatur eveniet molestias, inventore blanditiis dicta cum deserunt?
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="column">
+            <div class="card">
+              <header class="card-header">
+                <p class="card-header-title">
+                  Back-End Skills
+                </p>
+              </header>
+              <div class="card-content">
+                <div class="content">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam doloremque quae mollitia in. Incidunt magni recusandae perferendis. Earum labore ipsum vel pariatur eveniet molestias, inventore blanditiis dicta cum deserunt?
+                </div>
+              </div>       
+            </div>
+            <div class="card">
+              <figure class="card-image is-square">
+                <img src="../assets/testImage.jpg">
+              </figure>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- Portfilio Projects -->
       <section class="section" id="projects">
