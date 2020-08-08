@@ -21,7 +21,7 @@
             <a href="/#projects" class="navbar-item">
               Projects
             </a>
-            <a href="/" class="navbar-item">
+            <a href="/#contact" class="navbar-item">
               Contact
             </a>
           </div>
