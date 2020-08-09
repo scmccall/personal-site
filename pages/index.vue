@@ -30,12 +30,12 @@
       <!-- Hero Image -->
       <section class="hero is-primary is-fullheight-with-navbar">
         <div class="hero-body ">
-          <div class="has-text-centered">
+          <div class="">
             <h1 class="title is-1">
               SAM MCCALL
             </h1>
-            <h2 class="subtitle is-3">
-              { subtitle }
+            <h2 class="subtitle is-4">
+                WEB DEVELOPER AND SOFTWARE ENGINEER
             </h2>
           </div>
         </div>
@@ -47,10 +47,8 @@
             About Me
           </h1>
           <h2 class="subtitle is-5">
-            Sample text sample text sample text sample text sample text 
-            sample text sample text sample text sample text sample text 
-            sample text sample text sample text sample text sample text 
-            sample text sample text sample text sample text sample text 
+            I am a <strong>software developer</strong> with a degree in Computer Science. I like
+            creating tools that <strong>solve problems</strong> of all sizes.
           </h2>
         </div>
         <div class="columns">
@@ -142,24 +140,41 @@
           Get in touch
         </h1>
         <div class="box">
-          <ul>
-            <li><a href="/">
-              Email
-            </a></li>
-            <li><a href="/">
-              LinkedIn
-            </a></li>
-            <li><a href="/">
-              GitHub
-            </a></li>
-          </ul>
+          <div class="columns is-vcentered">
+            <div class="column is-8">
+              <div class="content">
+                Come chat with me if you have a project you'd like to
+                collaborate on.
+                <ul>
+                  <li><a href="mailto:smccall@smccall.com">
+                    Email
+                  </a></li>
+                  <li><a href="http://www.linkedin.com/in/sammccall/"
+                        target="_blank">
+                    LinkedIn
+                  </a></li>
+                  <li><a href="http://www.github.com/scmccall/" target="_blank">
+                    GitHub
+                  </a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="column">
+              <figure class="image is-128x128">
+                <img src="../assets/sunset.JPG">
+              </figure>
+              <div class="content">
+                <p>
+                  Click above to read my resume
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <!-- Footer -->
       <footer class="footer">
-        <div class="content">
-          <strong>Sam McCall</strong>
-        </div>
+        
       </footer>
     </div>
 </template>
