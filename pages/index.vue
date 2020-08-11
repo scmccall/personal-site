@@ -28,14 +28,14 @@
         </div>
       </nav>
       <!-- Hero Image -->
-      <section class="hero is-primary is-fullheight-with-navbar">
+      <section class="hero is-primary is-large">
         <div class="hero-body ">
           <div class="">
             <h1 class="title is-1">
               SAM MCCALL
             </h1>
             <h2 class="subtitle is-4">
-                WEB DEVELOPER AND SOFTWARE ENGINEER
+              WEB DEVELOPER AND SOFTWARE ENGINEER
             </h2>
           </div>
         </div>
@@ -51,6 +51,8 @@
             creating tools that <strong>solve problems</strong> of all sizes.
           </h2>
         </div>
+      </section>
+      <section class="section">
         <div class="columns">
           <div class="column">
             <div class="card">
@@ -65,18 +67,18 @@
                 </div>
               </div>
             </div>
-            <div class="card">
+            <!-- <div class="card">
               <figure class="card-image is-square">
                 <img src="../assets/testImage.jpg">
               </figure>
-            </div>
+            </div> -->
           </div>
           <div class="column">
-            <div class="card">
+            <!-- <div class="card">
               <figure class="card-image is-square">
                 <img src="../assets/testImage.jpg">
               </figure>
-            </div>
+            </div> -->
             <div class="card">
               <header class="card-header">
                 <p class="card-header-title">
@@ -103,11 +105,11 @@
                 </div>
               </div>       
             </div>
-            <div class="card">
+            <!-- <div class="card">
               <figure class="card-image is-square">
                 <img src="../assets/testImage.jpg">
               </figure>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
