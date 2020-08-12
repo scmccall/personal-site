@@ -45,7 +45,7 @@
         <section class="section" id="about">
           <div class="has-text-centered">
             <h1 class="title is-3">
-              About Me
+              Who Am I?
             </h1>
             <h2 class="subtitle is-5">
               I am a <strong>software developer</strong> with a degree in
