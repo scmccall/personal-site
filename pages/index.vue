@@ -189,7 +189,9 @@
       </div>
       <!-- Footer -->
       <footer class="footer">
-        
+        <div class="has-text-centered">
+          <p>Created by Sam McCall (2020)</p>
+        </div>
       </footer>
     </div>
 </template>
