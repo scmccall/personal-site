@@ -60,25 +60,20 @@
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
-                    Front-End Skills
+                    Front-End
                   </p>
                 </header>
                 <div class="card-content">
                   <div class="content">
                     <ul>
                       <li>
-                        Use <strong>HTML</strong>, <strong>CSS</strong>, and
-                        <strong>Javascript</strong> to create responsive and
-                        interactive web pages
+                        Use <strong>HTML</strong>, <strong>CSS</strong>, and <strong>Javascript</strong> to create responsive and interactive web pages
                       </li>
                       <li>
-                        Craft websites and applications with modern front-end
-                        frameworks like <strong>Vue.js</strong> and
-                        <strong>React</strong>
+                        Craft websites and applications with modern front-end frameworks like <strong>Vue.js</strong> and <strong>React</strong>
                       </li>
                       <li>
-                        Maintain legible and functional CSS using preprocessors
-                        like <strong>SASS</strong>
+                        Maintain legible and functional CSS using preprocessors like <strong>SASS</strong>
                       </li>
                     </ul>
                   </div>
@@ -89,12 +84,22 @@
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
-                    Back-End Skills
+                    Back-End
                   </p>
                 </header>
                 <div class="card-content">
                   <div class="content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam doloremque quae mollitia in. Incidunt magni recusandae perferendis. Earum labore ipsum vel pariatur eveniet molestias, inventore blanditiis dicta cum deserunt?
+                    <ul>
+                      <li>
+                        Build efficient and algorithm-driven back-end servers in Javascript using <strong>Node.js</strong>
+                      </li>
+                      <li>
+                        Make RESTful API calls using <strong>axios</strong>, <strong>mongoose</strong>, and <strong>express</strong> to manipulate JSON data
+                      </li>
+                      <li>
+                        Connect applications to back-end databases using <strong>MongoDB</strong>
+                      </li>
+                    </ul>
                   </div>
                 </div>       
               </div>
@@ -103,23 +108,20 @@
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
-                    Project Skills
+                    Project Management
                   </p>
                 </header>
                 <div class="card-content">
                   <div class="content">
                     <ul>
                       <li>
-                        Manage version control for project repositories
-                        with <strong>Git</strong> using best practices
+                        Manage version control for project repositories with <strong>Git</strong> using best practices
                       </li>
                       <li>
-                        Build in <strong>Test-Driven Development</strong> cycles
-                        using testing frameworks like <strong>Mocha</strong> and
-                        <strong>Chai</strong>
+                        Implement <strong>unit tests</strong> using testing frameworks like <strong>Mocha</strong> and <strong>Chai</strong>
                       </li>
                       <li>
-
+                        Stay connected with both remote and onsite staff with <strong>Slack</strong>, <strong>Skype</strong>, and <strong>Zoom</strong>
                       </li>
                     </ul>
                   </div>
