@@ -21,7 +21,7 @@ export default {
       description:
         "I’m <strong>Sam McCall</strong>, a <strong>software developer</strong> with a degree in <strong>Computer Science</strong>." +
         "<br><br>" +
-        "I have always approached coding and development as a way of <strong>solving problems</strong>. I started coding when I was 14 years old, learning HTML on my small Netbook in order to create a custom theme for my LiveJournal page." +
+        "I have always approached coding and development as a way of <strong>solving problems</strong>. I started coding in 2009, learning HTML on my small Netbook in order to create a custom theme for my LiveJournal page." +
         "<br><br>" + 
         "Since then I have graduated from simple HTML to a variety of tools and frameworks, but the same concept of problem solving has followed me through the years. If you take a look at my sampling of projects below, you’ll find they were all created to solve a specific problem." +
         "<br><br>" + 
