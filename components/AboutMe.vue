@@ -1,12 +1,12 @@
 <template>
 <div class="section">
-      <div class="columns">
+      <div class="columns is-3-desktop is-8-widescreen is-1-fullhd">
         <div class="column">
           <!-- <img src="../assets/my-face.jpg"> -->
           <img src="~assets/my-face.jpg">
         </div>
         <div class="column">
-          <h2 class="subtitle is-4">
+          <h2 class="subtitle is-5">
             <span v-html="description"></span>
           </h2>
         </div>
@@ -25,7 +25,7 @@ export default {
         "<br><br>" + 
         "Since then I have graduated from simple HTML to a variety of tools and frameworks, but the same concept of problem solving has followed me through the years. If you take a look at my sampling of projects below, you’ll find they were all created to solve a specific problem." +
         "<br><br>" + 
-        "While my language of choice is <strong>Javascript</strong>, I also have experience in <strong>Python</strong> and <strong>Swift</strong>. I'm a quick learner when it comes to interesting languages and frameworks to solve whatever problem I'm faced with."
+        "My language of choice is <strong>Javascript</strong>, I also have experience in <strong>Python</strong> and <strong>Swift</strong>. I'm a quick learner when it comes to interesting languages and frameworks to solve whatever problem I'm faced with."
 
     }
   }
