@@ -89,6 +89,20 @@
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
+                    Back-End Skills
+                  </p>
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam doloremque quae mollitia in. Incidunt magni recusandae perferendis. Earum labore ipsum vel pariatur eveniet molestias, inventore blanditiis dicta cum deserunt?
+                  </div>
+                </div>       
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <header class="card-header">
+                  <p class="card-header-title">
                     Project Skills
                   </p>
                 </header>
@@ -110,20 +124,6 @@
                     </ul>
                   </div>
                 </div>
-              </div>
-            </div>
-            <div class="column">
-              <div class="card">
-                <header class="card-header">
-                  <p class="card-header-title">
-                    Back-End Skills
-                  </p>
-                </header>
-                <div class="card-content">
-                  <div class="content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quisquam doloremque quae mollitia in. Incidunt magni recusandae perferendis. Earum labore ipsum vel pariatur eveniet molestias, inventore blanditiis dicta cum deserunt?
-                  </div>
-                </div>       
               </div>
             </div>
           </div>
@@ -293,6 +293,6 @@ export default {
 
 .max-width-container {
   margin: auto;
-  max-width: 1300px
+  max-width: 1240px
 }
 </style>
