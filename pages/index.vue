@@ -41,23 +41,16 @@
         </div>
       </section>
       <!-- About Me -->
-      <div class="breakpoint-max">
+      <div class="max-width-container">
         <section class="section" id="about">
           <div class="has-text-centered">
             <h1 class="title is-3">
               Who Am I?
             </h1>
-            <h2 class="subtitle is-5">
-              I am a <strong>software developer</strong> with a degree in
-              Computer Science. I like creating tools that
-              <strong>solve problems</strong> of all sizes. While my langauge of
-              choice is <strong>Javascript</strong>, I also have experience in
-              <strong>Python</strong> and <strong>Swift</strong>, and I'm a
-              quick learner when it comes to interesting languages and
-              frameworks to solve whatever probelm I'm faced with.
-            </h2>
           </div>
+          <AboutMe />
         </section>
+        <!-- Skills Section -->
         <section class="section">
           <div class="columns">
             <div class="column">
@@ -302,7 +295,7 @@ export default {
   padding-top: 15px;
 }
 
-.breakpoint-max {
+.max-width-container {
   margin: auto;
   max-width: 1300px
 }
