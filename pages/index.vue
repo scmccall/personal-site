@@ -7,13 +7,16 @@
             <img src="../assets/testImage.jpg" width="30px">
             <p>SAM MCCALL</p>
           </a>
-          <a class="navbar-burger">
+          <a class="navbar-burger"
+          :class="{ 'is-active' : navBarIsActive }"
+          @click="navBarIsActive = !navBarIsActive">
             <span></span>
             <span></span>
             <span></span>
           </a>
         </div>
-        <div class="navbar-menu">
+        <div class="navbar-menu"
+        :class="{ 'is-active' : navBarIsActive }">
           <div class="navbar-end">
             <a href="/#about" class="navbar-item">
               About Me
@@ -200,6 +203,7 @@
 export default {
   data: function() {
     return {
+      navBarIsActive: false,
       project1 : {
         id : 1,
         projectTitle : "Project 1",
