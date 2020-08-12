@@ -40,8 +40,8 @@
           </div>
         </div>
       </section>
-      <!-- About Me -->
       <div class="max-width-container">
+        <!-- About Me -->
         <section class="section" id="about">
           <div class="has-text-centered">
             <h1 class="title is-3">
@@ -81,18 +81,8 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="card">
-                <figure class="card-image is-square">
-                  <img src="../assets/testImage.jpg">
-                </figure>
-              </div> -->
             </div>
             <div class="column">
-              <!-- <div class="card">
-                <figure class="card-image is-square">
-                  <img src="../assets/testImage.jpg">
-                </figure>
-              </div> -->
               <div class="card">
                 <header class="card-header">
                   <p class="card-header-title">
@@ -132,11 +122,6 @@
                   </div>
                 </div>       
               </div>
-              <!-- <div class="card">
-                <figure class="card-image is-square">
-                  <img src="../assets/testImage.jpg">
-                </figure>
-              </div> -->
             </div>
           </div>
         </section>
