@@ -65,7 +65,7 @@
                     <ul>
                       <li>
                         Use <strong>HTML</strong>, <strong>CSS</strong>, and
-                        <strong>Javascript</strong> to create beautiful and
+                        <strong>Javascript</strong> to create responsive and
                         interactive web pages
                       </li>
                       <li>
