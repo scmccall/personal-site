@@ -193,7 +193,12 @@
       <!-- Footer -->
       <footer class="footer">
         <div class="has-text-centered">
-          <p>Created by Sam McCall (2020)</p>
+          <div class="content">
+            © 2020 — Designed and coded by Sam McCall using
+            <a href="https://vuejs.org/">Vue.js</a> + 
+            <a href="https://nuxtjs.org/">Nuxt</a> + 
+            <a href="https://bulma.io">Bulma</a>.
+          </div>
         </div>
       </footer>
     </div>
