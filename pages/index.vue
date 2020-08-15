@@ -165,7 +165,8 @@
                   Come chat with me if you have a project you'd like to
                   collaborate on.
                   <ul>
-                    <li><a href="mailto:smccall@smccall.com">
+                    <li>
+                      <a href="mailto:smccall@smccall.com">
                       Email
                     </a></li>
                     <li><a href="http://www.linkedin.com/in/sammccall/"
