@@ -1,17 +1,40 @@
 <template>
-<div class="section">
-      <div class="columns is-3-desktop is-8-widescreen is-1-fullhd">
-        <div class="column">
-          <!-- <img src="../assets/my-face.jpg"> -->
-          <img src="~assets/my-face.jpg">
+  <div class="section">
+    <div class="columns is-3-desktop is-8-widescreen is-1-fullhd">
+      <div class="column">
+        <!-- <img src="../assets/my-face.jpg"> -->
+        <img src="~assets/my-face.jpg">
+      </div>
+      <div class="column">
+        <h2 class="subtitle is-5">
+          <span v-html="description"></span>
+        </h2>
+        <div class="level contact-link">
+          <img class="level-item image is-24x24 mr-4" src="~assets/envelope.svg">
+          <a class="level-item" href="mailto:smccall@smccall.com">
+            smccall@smccall.com
+          </a>
         </div>
-        <div class="column">
-          <h2 class="subtitle is-5">
-            <span v-html="description"></span>
-          </h2>
+        <div class="level contact-link">
+          <img class="level-item image is-24x24 mr-4" src="~assets/linkedin.svg">
+          <a class="level-item"
+            href="http://www.linkedin.com/in/sammccall/"
+            target="_blank">
+            linkedin.com/in/sammccall
+          </a>
+        </div>
+        <div class="level contact-link">
+          <img class="level-item image is-24x24 mr-4"
+            src="~assets/github-square.svg">
+          <a class="level-item"
+            href="http://www.github.com/scmccall/"
+            target="_blank">
+            github.com/scmccall/
+          </a>
         </div>
       </div>
-</div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -33,5 +56,9 @@ export default {
 </script>
 
 <style scoped>
+
+.contact-link {
+  float: left
+}
 
 </style>
