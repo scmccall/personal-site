@@ -15,7 +15,6 @@
             smccall@smccall.com
           </a>
         </div>
-        <br>
         <div class="level contact-link">
           <img class="level-item image is-24x24 mr-4" src="~assets/linkedin.svg">
           <a class="level-item"
@@ -24,7 +23,6 @@
             linkedin.com/in/sammccall
           </a>
         </div>
-        <br>
         <div class="level contact-link">
           <img class="level-item image is-24x24 mr-4"
             src="~assets/github-square.svg">
