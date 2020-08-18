@@ -158,7 +158,7 @@
           <h1 class="title is-2 has-text-centered">
             Get in touch
           </h1>
-          <div class="message">
+          <div class="box">
             <div class="contact-width-container">
               <ContactForm />
             </div>

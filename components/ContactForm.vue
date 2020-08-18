@@ -18,7 +18,7 @@
         <textarea class="textarea is-info" name="message" required="true" :placeholder="messagePlaceholderText" ></textarea>
       </div>					
     </div>
-    <div class="field">
+    <div class="field has-text-centered">
       <button class="button is-primary" type="submit">Send</button>
     </div>
   </form>
