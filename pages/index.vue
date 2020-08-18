@@ -158,37 +158,9 @@
           <h1 class="title is-2 has-text-centered">
             Get in touch
           </h1>
-          <div class="box">
-            <div class="columns is-vcentered">
-              <div class="column is-8">
-                <div class="content">
-                  Come chat with me if you have a project you'd like to
-                  collaborate on.
-                  <ul>
-                    <li>
-                      <a href="mailto:smccall@smccall.com">
-                      Email
-                    </a></li>
-                    <li><a href="http://www.linkedin.com/in/sammccall/"
-                          target="_blank">
-                      LinkedIn
-                    </a></li>
-                    <li><a href="http://www.github.com/scmccall/" target="_blank">
-                      GitHub
-                    </a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="column">
-                <figure class="image is-128x128">
-                  <img src="../assets/sunset.JPG">
-                </figure>
-                <div class="content">
-                  <p>
-                    Click above to read my resume
-                  </p>
-                </div>
-              </div>
+          <div class="message">
+            <div class="contact-width-container">
+              <ContactForm />
             </div>
           </div>
         </section>
@@ -297,5 +269,10 @@ export default {
 .max-width-container {
   margin: auto;
   max-width: 1240px
+}
+
+.contact-width-container {
+  margin: auto;
+  max-width: 600px
 }
 </style>
