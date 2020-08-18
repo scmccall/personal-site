@@ -15,7 +15,8 @@
     <div class="field">
       <div class="control">
         <label class="label" for="message">Message:</label>
-        <textarea class="textarea is-info" name="message" required="true" :placeholder="messagePlaceholderText" ></textarea>
+        <textarea class="textarea is-info" name="message" required="true"
+        :placeholder="returnMultilinePlaceholderText(messagePlaceholderText)" ></textarea>
       </div>					
     </div>
     <div class="field">
@@ -32,8 +33,15 @@ export default {
 
       emailPlaceholderText: "bsummers@sunnydalehighschool.edu",
 
-      messagePlaceholderText: "Hey Sam! Just checking in to see if you got my memo about the Hellmouth opening up nearby. Hope to hear back soon! Signed, Buffy"
+      messagePlaceholderText: "Hey Sam!\nJust checking in to see if you got my memo about the Hellmouth opening up nearby. Hope to hear back soon!\nSigned, Buffy"
     }
+  },
+  methods: {
+
+    returnMultilinePlaceholderText : function(text) {
+      return text.replace(/\\n/g, '\n')
+    }
+
   }
 }
 </script>
