@@ -8,6 +8,16 @@
         <h2 class="subtitle is-5">
           <span v-html="description"></span>
         </h2>
+        <div class="message is-primary">
+          <div class="message-header">
+            Where to find me Online:
+          </div>
+          <div class="message-body">
+            here
+            header
+            header
+          </div>
+        </div>
       </div>
     </div>
   </div>
