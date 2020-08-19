@@ -13,9 +13,23 @@
             Where to find me Online:
           </div>
           <div class="message-body">
-            here
-            header
-            header
+            <ul>
+              <li>
+                <a href="http://www.github.com/scmccall" target="_blank">
+                  Github
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/sammccall/" target="_blank">
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="mailto:smccall@smccall.com" target="_blank">
+                  Email
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
