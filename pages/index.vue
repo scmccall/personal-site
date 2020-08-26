@@ -143,7 +143,7 @@
             </div>
             <div class="column">
               <ProjectCard
-                v-bind="project1">
+                v-bind="project2">
               </ProjectCard>
             </div>
             <div class="column">
@@ -187,7 +187,44 @@ export default {
       project1 : {
         id : 1,
         projectTitle : "Project 1",
-        imageSrc : "../assets/squareimage.png",
+        imageSrc : "squareimage.png",
+        projectDescription : "Here is the project description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora hic quam iure ipsa eligendi dolore asperiores architecto. Eum dolores odit ipsam sapiente consequatur illum rerum quibusdam, distinctio, sit amet dolorum.",
+        tags : [
+
+          {
+            tagName: "Javascript",
+            tagColor: "is-info"
+          },
+
+          {
+            tagName: "Node.js",
+            tagColor: "is-danger"
+          },
+
+          {
+            tagName: "Vue.js",
+            tagColor: "is-warning"
+          }
+
+        ],
+
+        links : [
+          {
+            linkName: "Live Demo",
+            linkPath: "/"
+          },
+
+          {
+            linkName: "See Source",
+            linkPath: "github.com"
+          }
+
+        ]
+      },
+      project2 : {
+        id : 2,
+        projectTitle : "Project 1",
+        imageSrc : "testImage.jpg",
         projectDescription : "Here is the project description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora hic quam iure ipsa eligendi dolore asperiores architecto. Eum dolores odit ipsam sapiente consequatur illum rerum quibusdam, distinctio, sit amet dolorum.",
         tags : [
 

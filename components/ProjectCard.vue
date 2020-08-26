@@ -2,8 +2,8 @@
   <div class="card">
     <div class="card-image">
       <figure class="image is-128-128">
-        <img src="../assets/squareimage.png">
-        <!-- <img :src="imageSrc"> -->
+        <!-- <img src="../assets/squareimage.png"> -->
+        <img :src="projectImage">
       </figure>
     </div>
     <div class="card-content">
@@ -46,7 +46,17 @@ export default {
     'projectDescription',
     'tags',
     'links'
-  ]
+  ],
+  computed : {
+    projectImage : function () {
+      if (!this.imageSrc) {
+        return;
+      }
+      const fileName = this.imageSrc.toLowerCase()
+
+      return require(`../assets/${this.imageSrc}`);
+    }
+  }
 }
 </script>
 
