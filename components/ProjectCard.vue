@@ -11,8 +11,8 @@
         <h1 class="title is-3">
           {{ projectTitle }}
         </h1>
-        <p> {{ projectDescription }} 
-        </p>
+        <span v-html="projectDescription">
+        </span>
       </div>
       <div class="tags">
         <span
