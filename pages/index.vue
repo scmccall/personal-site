@@ -245,4 +245,8 @@ export default {
   margin: auto;
   max-width: 600px
 }
+
+.navbar-menu {
+  margin-right: 20px;
+}
 </style>
