@@ -11,4 +11,4 @@ The site is currently live at [smccall.com](smccall.com).
 - [Vue.js](https://vuejs.org) is used for the front-end.
 - [Nuxt.js](https://nuxtjs.org) generates the static site.
 - [Bulma](https://bulma.io) provides styling and layout tools.
-- Hosted on [Netlify](https://www.netlify.com/).
+- Live hosting on [Netlify](https://www.netlify.com/).
