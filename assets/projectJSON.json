@@ -5,7 +5,7 @@
       "id" : 1,
       "projectTitle" : "Ear Training Tool",
       "imageSrc" : "squareimage.png",
-      "projectDescription" : "Here is the project description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora hic quam iure ipsa eligendi dolore asperiores architecto. Eum dolores odit ipsam sapiente consequatur illum rerum quibusdam, distinctio, sit amet dolorum.",
+      "projectDescription" : "Educational tool for musicians to train their ear by quizzing them on the interval between two notes. Built in <strong>Vue.js</strong>.",
       "tags" : [
 
         {
@@ -36,7 +36,7 @@
       "id" : 2,
       "projectTitle" : "Bystander Tracker",
       "imageSrc" : "squareimage.png",
-      "projectDescription" : "Here is the project description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora hic quam iure ipsa eligendi dolore asperiores architecto. Eum dolores odit ipsam sapiente consequatur illum rerum quibusdam, distinctio, sit amet dolorum.",
+      "projectDescription" : "Keeps tracks of Bystander NPCs (non-player characters) for Monster of the Week campaigns. Allows users to create new Bystanders, as well as edit and delete existing Bystanders. Made with <strong>Vue.js</strong> as the front-end, <strong>Node.js</strong> for the back-end, and MongoDB for the database.",
       "tags" : [
 
         {
@@ -52,7 +52,12 @@
         {
           "tagName": "Node.js",
           "tagColor": "is-danger"
+        },
+        {
+          "tagName": "MongoDB",
+          "tagColor": "is-success"
         }
+
 
       ],
 
@@ -67,6 +72,9 @@
           "linkPath": "https://github.com/scmccall/MOTW-bystander-list"
         }
       ]
+    },
+    {
+      
     }
   ]
 }
