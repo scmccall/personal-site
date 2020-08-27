@@ -4,7 +4,7 @@
     {
       "id" : 1,
       "projectTitle" : "Ear Training Tool",
-      "imageSrc" : "squareimage.png",
+      "imageSrc" : "ear-training-cover.png",
       "projectDescription" : "Educational tool for musicians to train their ear by quizzing them on the interval between two notes. Built in <strong>Vue.js</strong>.",
       "tags" : [
 
