@@ -1,8 +1,7 @@
 <template>
   <div class="card">
     <div class="card-image">
-      <figure class="image is-128-128">
-        <!-- <img src="../assets/squareimage.png"> -->
+      <figure class="image is-4by3">
         <img :src="projectImage">
       </figure>
     </div>
