@@ -35,7 +35,7 @@
     {
       "id" : 2,
       "projectTitle" : "Bystander Tracker",
-      "imageSrc" : "squareimage.png",
+      "imageSrc" : "motw-bystander-cover.jpg",
       "projectDescription" : "Keeps tracks of Bystander NPCs (non-player characters) for Monster of the Week campaigns. Allows users to create new Bystanders, as well as edit and delete existing Bystanders. Made with <strong>Vue.js</strong> as the front-end, <strong>Node.js</strong> for the back-end, and MongoDB for the database.",
       "tags" : [
 
@@ -74,7 +74,7 @@
       ]
     },
     {
-      
+
     }
   ]
 }
