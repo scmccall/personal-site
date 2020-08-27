@@ -1,0 +1,72 @@
+{
+  "count" : 2,
+  "projects" : [
+    {
+      "id" : 1,
+      "projectTitle" : "Ear Training Tool",
+      "imageSrc" : "squareimage.png",
+      "projectDescription" : "Here is the project description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora hic quam iure ipsa eligendi dolore asperiores architecto. Eum dolores odit ipsam sapiente consequatur illum rerum quibusdam, distinctio, sit amet dolorum.",
+      "tags" : [
+
+        {
+          "tagName": "Javascript",
+          "tagColor": "is-info"
+        },
+
+        {
+          "tagName": "Vue.js",
+          "tagColor": "is-warning"
+        }
+
+      ],
+
+      "links" : [
+        {
+          "linkName": "Live Demo",
+          "linkPath": "https://interval-app.smccall.com/"
+        },
+
+        {
+          "linkName": "See Source",
+          "linkPath": "https://github.com/scmccall/ear-training"
+        }
+      ]
+    },
+    {
+      "id" : 2,
+      "projectTitle" : "Bystander Tracker",
+      "imageSrc" : "squareimage.png",
+      "projectDescription" : "Here is the project description. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora hic quam iure ipsa eligendi dolore asperiores architecto. Eum dolores odit ipsam sapiente consequatur illum rerum quibusdam, distinctio, sit amet dolorum.",
+      "tags" : [
+
+        {
+          "tagName": "Javascript",
+          "tagColor": "is-info"
+        },
+
+        {
+          "tagName": "Vue.js",
+          "tagColor": "is-warning"
+        },
+
+        {
+          "tagName": "Node.js",
+          "tagColor": "is-danger"
+        }
+
+      ],
+
+      "links" : [
+        {
+          "linkName": "Live Demo",
+          "linkPath": "https://bystander-tracker.smccall.com/"
+        },
+
+        {
+          "linkName": "See Source",
+          "linkPath": "https://github.com/scmccall/MOTW-bystander-list"
+        }
+      ]
+    }
+  ]
+}
