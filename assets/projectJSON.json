@@ -74,7 +74,35 @@
       ]
     },
     {
+      "id" : 3,
+      "projectTitle" : "Monster of the Week API",
+      "imageSrc" : "motw-bystander-cover.jpg",
+      "projectDescription" : "Read-only RESTful API that accepts GET requests for information on Monster of the Week playbooks and weapon tags. Built with <strong>Node.js</strong>",
+      "tags" : [
 
+        {
+          "tagName": "Javascript",
+          "tagColor": "is-info"
+        },
+        {
+          "tagName": "Node.js",
+          "tagColor": "is-danger"
+        }
+
+
+      ],
+
+      "links" : [
+        {
+          "linkName": "Live Demo",
+          "linkPath": "http://motwapi.com"
+        },
+
+        {
+          "linkName": "See Source",
+          "linkPath": "https://github.com/scmccall/motwAPI"
+        }
+      ]
     }
   ]
 }

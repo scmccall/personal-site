@@ -148,7 +148,7 @@
             </div>
             <div class="column">
               <ProjectCard
-                v-bind="projectsList.projects[1]">
+                v-bind="projectsList.projects[2]">
               </ProjectCard>
             </div>
           </div>
