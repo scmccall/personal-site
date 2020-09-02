@@ -28,7 +28,8 @@
       class="card-footer-item"
       v-for="(link, index) in links"
       :key="index"
-      :href="link.linkPath">
+      :href="link.linkPath"
+      target="_blank">
         {{ link.linkName }}
       </a>
     </div>
