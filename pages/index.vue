@@ -4,7 +4,6 @@
       <nav class="navbar is-primary is-fixed-top">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
-            <img src="../assets/testImage.jpg" width="30px">
             <p>SAM MCCALL</p>
           </a>
           <a class="navbar-burger"
@@ -184,6 +183,10 @@
 import projectJSON from "../assets/projectJSON.json"
 
 export default {
+  metaInfo: {
+    title: "Sam McCall",
+    titleTemplate: null,
+  },
   data: function() {
     return {
 
